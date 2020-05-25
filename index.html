@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" media="screen" />
   <title>Day of Week Akan Name Calculator</title>
 </head>
 <body>
@@ -16,55 +17,64 @@
     display: block;
   }
 </style>
-<div class=" row bg" style="height: 100vh; background: url(images/background.png) no-repeat center center; background-size: cover; margin-bottom: 20px;">
+<div class="container-fluid " style="height: 100vh; background: url(images/Ghanaian.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px;">
     
-    <section class="col">
-        <section class="col-md-4 intro">
+    <div class="row  100vh justify-content-center align-items-center">
+        <section class="col-6">
             <h1 class="akan-heading">Akan <span class="heading-name">Names</span></h1>
                 <p class="fs12">A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
         </section>
-        <section class="col-md-3">
-                <p class="fs12">Here are some Ghanaian Names:</p>
-                    <section class="row col-md-2">
-                        <h4><i class="fa fa-female"></i>&nbsp;&nbsp;Female</h4>
-                        <ul class="fs11">
-                            <li>Sunday: Akosua</li>
-                            <li>Monday: Adwoa</li>
-                            <li>Tuesday: Abenaa</li>
-                            <li>Wednesday: Akua</li>
-                            <li>Thursday:  Yaa</li>
-                            <li>Friday: Afua</li>   
-                            <li>Saturday: Ama</li>
-                        </ul>
-                    </section>
-                    <section class="row col-md-2">
-                        <h4><i class="fa fa-male"></i>&nbsp;&nbsp; Male</h4>
-                        <ul class="fs11">
-                            <li>Sunday: Kwasi</li>
-                            <li>Monday: Kwadwo</li>
-                            <li>Tuesday: Kwabena</li>
-                            <li>Wednesday: Kwaku</li>
-                            <li>Thursday:  Yaw</li>
-                            <li>Friday: Kofi</li>
-                            <li>Saturday: Kwame</li>
-                        </ul>
-                    </section>
-                    
-                        
-               </section> 
-               
+        <section class="col-6">
+            <section>
                 
-            </div>
+            </section>
+                <section class="row justify-content-center align-items-center"> 
+                     
+                    <section class="col-6">
+                          
+                        <h4><i class="fa fa-female"></i>&nbsp;&nbsp;Female</h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Sun</span> Akosua</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Mon</span> Adwoa</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Tue</span> Abenaa</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Wed</span> Akua</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Thu</span> Yaa</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Fri</span> Afua</li>   
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Sat</span> Ama</li>
+                        </ul>
+                    </section>
+                    <section class="col-6">
+                        <h4><i class="fa fa-male"></i>&nbsp;&nbsp; Male</h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Sun</span> Kwasi</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Mon</span> Kwadwo</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Tue</span> Kwabena</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Wed</span> Kwaku</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Thu</span>  Yaw</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Fri</span> Kofi</li>
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Sat</span> Kwame</li>
+                        </ul>
+                    </section>
+                </section>
+                        
+        </section>            
+    </div>
         
-       
+       <div class="container">
+           <div class="row">
+
+           </div>
+       </div>
             <!-- <div class="your-akan-name"> -->
                 <!-- <p id="message" class="output">Hey this where you enter</p> -->
             <!-- </div> -->
         <div class="container">
-            <h5>Please Enter Your Birthdate Here:</h5>
+            <div class="row justify-content-center">
+                
             <div class="add-stylist-form">
+                <h5>Please Enter Your Birthdate Here:</h5>
                 <form>
-                    <div class="col">
+                    <div class="form-group mb15">
                           <label class="label">Birthday</label>
                            <div class="input-group mb15">
                             <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
@@ -87,8 +97,13 @@
                     <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>
                 </form>
             </div>
+            </div>
+            
+        
+<div class="row">
+    <footer class="footer"><p>Powered by <a href="https://ndiklasthecoder.github.io/independent-project/" target="_blank">Ndiklas</a>. &copy; 2020 All Rights Reserved. Day of Week Akan Name Calculator.</p></footer>
+</div>
 
-<footer class="footer bg-info"><p>Powered by <a href="https://ndiklasthecoder.github.io/independent-project/" target="_blank">Ndiklas</a>. &copy; 2020 All Rights Reserved. Day of Week Akan Name Calculator.</p></footer>
 </div>
 
 <script src="js/jquery.slim.min.js"></script>
