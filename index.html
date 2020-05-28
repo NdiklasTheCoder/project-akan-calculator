@@ -18,7 +18,7 @@
   }
 </style>
 <div class="container-fluid " style="height: 100vh; background: url(images/Ghanaian.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px;">
-    
+
     <div class="row  100vh justify-content-center align-items-center">
         <section class="col-6">
             <h1 class="akan-heading">Akan <span class="heading-name">Names</span></h1>
@@ -26,12 +26,12 @@
         </section>
         <section class="col-6">
             <section>
-                
+
             </section>
-                <section class="row justify-content-center align-items-center"> 
-                     
+                <section class="row justify-content-center align-items-center">
+
                     <section class="col-6">
-                          
+
                         <h4><i class="fa fa-female"></i>&nbsp;&nbsp;Female</h4>
                         <ul class="list-group mb-3">
                             <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Sun</span> Akosua</li>
@@ -39,7 +39,7 @@
                             <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Tue</span> Abenaa</li>
                             <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Wed</span> Akua</li>
                             <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Thu</span> Yaa</li>
-                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Fri</span> Afua</li>   
+                            <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Fri</span> Afua</li>
                             <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Sat</span> Ama</li>
                         </ul>
                     </section>
@@ -56,58 +56,51 @@
                         </ul>
                     </section>
                 </section>
-                        
-        </section>            
+
+        </section>
     </div>
-        
-       <div class="container">
-           <div class="row">
 
-           </div>
-       </div>
-            <!-- <div class="your-akan-name"> -->
-                <!-- <p id="message" class="output">Hey this where you enter</p> -->
-            <!-- </div> -->
-        <div class="container">
-            <div class="row justify-content-center">
-                
-            <div class="add-stylist-form">
-                <h5>Please Enter Your Birthdate Here:</h5>
-                <form>
-                    <div class="form-group mb15">
-                          <label class="label">Birthday</label>
-                           <div class="input-group mb15">
-                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                            <input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
-                         </div>
-                    </div>
+    <div class="col-md-4 mt30 akan-form">
+        <h5>Please Enter Your Birthdate Here:</h5>
+        <div class="add-stylist-form">
+            <form>
+                <div class="form-group mb15">
+                      <label class="label">Birthday</label>
+                       <div class="input-group mb15">
+                        <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        <input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
+                     </div>
+                </div>
 
-                    <div class="form-group mb15">
-                          <label class="label">Gender</label>
-                           <div class="rdio rdio-default fs11">
-                            <input type="radio" name="gender" id="male" value="Male">
-                            <label for="male">&nbsp;&nbsp;Male</label>
-                        </div>
-                        <div class="rdio rdio-default fs11">
-                            <input type="radio" name="gender" value="Female" id="female">
-                            <label for="female">&nbsp;&nbsp;Female</label>
-                         </div>
+                <div class="form-group mb15">
+                      <label class="label">Gender</label>
+                       <div class="rdio rdio-default fs11">
+                        <input type="radio" name="gender" id="male" value="Male">
+                        <label for="male">&nbsp;&nbsp;Male</label>
                     </div>
-                    <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
-                    <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>
-                </form>
-            </div>
-            </div>
-            
-        
+                    <div class="rdio rdio-default fs11">
+                        <input type="radio" name="gender" value="Female" id="female">
+                        <label for="female">&nbsp;&nbsp;Female</label>
+                     </div>
+                </div>
+                <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
+                <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>
+            </form>
+        </div>
+        <hr>
+        <div class="your-akan-name">
+            <p id="message" class="output"></p>
+        </div>
+
 <div class="row">
     <footer class="footer"><p>Powered by <a href="https://ndiklasthecoder.github.io/independent-project/" target="_blank">Ndiklas</a>. &copy; 2020 All Rights Reserved. Day of Week Akan Name Calculator.</p></footer>
 </div>
 
 </div>
-
+<script src="js/jquery-3.4.1.js"></script>
 <script src="js/jquery.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
