@@ -18,7 +18,7 @@
     display: block;
   }
 </style>
-<div class="container-fluid " style="height: 100vh; background: url(images/Ghanaian.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px;">
+<div class="container-fluid" style="height: 100vh; background: url(images/Ghanaian.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px;">
 
     <div class="row  100vh justify-content-center align-items-center">
         <section class="col-6">
@@ -64,47 +64,42 @@
     <div class="col-md-4 mt70 akan-form">
         <h5>Please Enter Your Birthdate Here:</h5>
         <div class="add-stylist-form">
-<form>
-        <div>
-            <div>
-                    <p id="output"></p>
-                <label>Enter Your first Name.</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter" required>
-                <label>Year</label>
-                <input type="number" class="form-control" id="year" placeholder="Enter the year." required
-                    min="1980" max="2019" >
-                <label>Month</label>
-                <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
-                    max="12">
+    <div class="row">
+        <div class="col">
+            <form>
+                <div>
+                    <div>
+                            <p id="output"></p>
+                        <label>Enter Your first Name.</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter" required>
+                        <label>Year</label>
+                        <input type="number" class="form-control" id="year" placeholder="Enter the year." required
+                            min="1980" max="2019" >
+                        <label>Month</label>
+                        <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
+                            max="12">
+        
+                        <label>Day</label>
+                        <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
+                            max="31">
+                    </div>
+                    <div class="ggg">
+                        <label>Gender</label><br>
+                        <input type="radio" name="gender" id="male" value="male" checked> Male
+                        <input type="radio" name="gender" id="female" value="female"> Female
+                    </div>
+                </div>
+                <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+                
+                <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+                
+            </form>
+        </div>
 
-                <label>Day</label>
-                <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
-                    max="31">
-            </div>
-            <div class="ggg">
-                <label>Gender</label><br>
-                <input type="radio" name="gender" id="male" value="male" checked> Male
-                <input type="radio" name="gender" id="female" value="female"> Female
-            </div>
-        </div>
-        <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
-        
-        <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
-        
-    </form>
-        </div>
-        <hr>
-        <div class="your-akan-name">
-            <p id="message" class="output"></p>
-        </div>
     </div>
-    <div class="col-md-2">
-        <footer class="footer fixed-bottom">
-            <p>Powered by <a href="https://ndiklasthecoder.github.io/independent-project/" target="_blank">Ndiklas</a>. &copy; 2019 All Rights Reserved. Akan Names Application.</p>
-        </footer>
-    </div>
-</div>
-</div>
+    <footer class="footer fixed-bottom">
+        <p>Powered by <a href="https://ndiklasthecoder.github.io/independent-project/" target="_blank">Ndiklas</a>. &copy; 2019 All Rights Reserved. Akan Names Application.</p>
+    </footer>
 </div>
 <script src="js/script.js"></script>
 <script src="js/jquery.slim.min.js"></script>
