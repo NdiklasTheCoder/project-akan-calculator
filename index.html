@@ -23,16 +23,11 @@
     <div class="row  100vh justify-content-center align-items-center">
         <section class="col-6">
             <h1 class="akan-heading">Akan <span class="heading-name">Names</span></h1>
-                <p class="fs12">A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+                <p class="fs12">Calculator that takes birthday and calculates the day of the week they were born returning, based on their gender outputs their Akan Name. African Ghanian culture. </p>
         </section>
         <section class="col-6">
-            <section>
-
-            </section>
                 <section class="row justify-content-center align-items-center">
-
                     <section class="col-6">
-
                         <h4><i class="fa fa-female"></i>&nbsp;&nbsp;Female</h4>
                         <ul class="list-group mb-3">
                             <li class="list-group-item list-group-item-action list-group-item-transparent" href="#"><span class="badge badge-primary badge-pill">Sun</span> Akosua</li>
@@ -63,9 +58,7 @@
 
     <div class="col-md-4 mt70 akan-form">
         <h5>Please Enter Your Birthdate Here:</h5>
-        <div class="add-stylist-form">
-    <div class="row">
-        <div class="col">
+        <!-- <div class="add-stylist-form"> -->
             <form>
                 <div>
                     <div>
@@ -87,18 +80,22 @@
                         <label>Gender</label><br>
                         <input type="radio" name="gender" id="male" value="male" checked> Male
                         <input type="radio" name="gender" id="female" value="female"> Female
+                        <div>
+                            <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+                
+                            <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+                        </div>
+                        
                     </div>
+             
                 </div>
-                <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+                   
                 
-                <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
-                
+               
             </form>
         </div>
-
-    </div>
-    <footer class="footer fixed-bottom">
-        <p>Powered by <a href="https://ndiklasthecoder.github.io/independent-project/" target="_blank">Ndiklas</a>. &copy; 2019 All Rights Reserved. Akan Names Application.</p>
+    <footer class="footer">
+        <p>Powered by <a href="https://ndiklasthecoder.github.io/independent-project/" target="_blank">Ndiklas</a>. &copy; 2020 All Rights Reserved. Akan Names Application.</p>
     </footer>
 </div>
 <script src="js/script.js"></script>
