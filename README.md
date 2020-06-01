@@ -1,8 +1,8 @@
 # Project-Akan-Calculator
 
-## Calculator that takes birthday and calculates the day of the week they were born returning, based on their gender outputs their Akan Name. African Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. 
+## Calculator that takes birthday and calculates the day of the week they were born returning, based on their gender outputs their Akan Name. African Ghanian culture 
 
-![alt text](http://url/to/Project-Akan-Calculator.jpg)
+![alt text](https://github.com/[NdiklasTheCoder]/[project-akan-calculator]/blob/[master]/Project-Akan-Calculator.jpg?raw=true)
 
 ## Tools used in the process
 
