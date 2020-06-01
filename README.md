@@ -2,7 +2,7 @@
 
 ## Calculator that takes birthday and calculates the day of the week they were born returning, based on their gender outputs their Akan Name. African Ghanian culture 
 
-![alt text](https://github.com/[NdiklasTheCoder]/[project-akan-calculator]/blob/[master]/Project-Akan-Calculator.jpg?raw=true)
+![alt text](https://github.com/NdiklasTheCoder/project-akan-calculator/blob/master/Calculator.jpg?raw=true)
 
 ## Tools used in the process
 
