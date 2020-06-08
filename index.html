@@ -18,7 +18,10 @@
     display: block;
   }
 </style>
-<div class="container-fluid " style="height: 100vh; background: url(images/Ghanaian.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px;">
+<div class="jumbotron">
+
+
+<div class="container-fluid" style="height: 100vh; background: url(images/Ghanaian.jpg) no-repeat center center; background-size: cover; margin-bottom: 20px;">
 
     <div class="row  100vh justify-content-center align-items-center">
         <section class="col-6">
@@ -64,7 +67,7 @@
     <div class="col-md-4 mt70 akan-form">
         <h5>Please Enter Your Birthdate Here:</h5>
         <div class="add-stylist-form">
-<form>
+    <form>
         <div>
             <div>
                     <p id="output"></p>
@@ -86,11 +89,11 @@
                 <input type="radio" name="gender" id="male" value="male" checked> Male
                 <input type="radio" name="gender" id="female" value="female"> Female
             </div>
+            <div>
+                <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+                <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+            </div>
         </div>
-        <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
-        
-        <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
-        
     </form>
         </div>
         <hr>
@@ -104,7 +107,6 @@
 <footer class="footer fixed-bottom">
     <p>Powered by <a href="https://ndiklasthecoder.github.io/independent-project/" target="_blank">Ndiklas</a>. &copy; 2019 All Rights Reserved. Akan Names Application.</p>
 </footer>
-</div>
 </div>
 <script src="js/script.js"></script>
 <script src="js/jquery.slim.min.js"></script>
