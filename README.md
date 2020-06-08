@@ -46,7 +46,7 @@ To fix a bug or enhance an existing module, follow these steps:
 
 Website might take slightly longer to load
 
-If you experience any other issue, kindly notify us. 
+If you experience any other issue, kindly notify us by reaching us on info@ecogreensolutions.co.ke
 
 ### License
 
